@@ -1,17 +1,13 @@
 import React from 'react';
-import CategoryAreaTwo from './CategoryAreaTwo';
-// import BundleComboArea from './BundleComboArea';
-import FeaturedAreaHomeTwo from './FeaturedAreaHomeTwo';
 import SidebarMain from '../SharedComponents/Sidebars/SidebarMain';
 import HomeTwoBannerArea from './HomeTwoBannerArea';
+import CategoryArea from '../home/CategoryArea';
 
 const HomeTwoMain = () => {
   return (
     <>
       <HomeTwoBannerArea />
-      <CategoryAreaTwo />
-      {/* <BundleComboArea /> */}
-      <FeaturedAreaHomeTwo />
+      <CategoryArea />
       <SidebarMain />
     </>
   );

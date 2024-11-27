@@ -1,13 +1,13 @@
 import { MenuType } from '@/interFace/interFace';
 
 const menu_data: MenuType[] = [
-  // {
-  //   id: 1,
-  //   hasDropdown: false,
-  //   active: true,
-  //   title: 'Home',
-  //   link: '',
-  // },
+  {
+    id: 1,
+    hasDropdown: false,
+    active: true,
+    title: 'Home',
+    link: '',
+  },
   {
     id: 2,
     hasDropdown: true,

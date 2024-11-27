@@ -3,12 +3,9 @@ import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation, Pagination, EffectFade } from 'swiper';
 import 'swiper/css/bundle';
-import banner4 from '../../../public/assets/img/slider-img/fastchow_burger.jpg';
-import banner5 from '../../../public/assets/img/slider-img/fastchow-wings.jpg';
-import banner6 from '../../../public/assets/img/slider-img/fastchow_pasta.jpg';
-import bannerBg from '../../../public/assets/img/slider-img/dispatch.jpeg';
+import bannerBg from '../../../public/assets/img/slider-img/energyflow_hero2.jpg';
 import Link from 'next/link';
-import Image from 'next/image';
+
 const HomeTwoBannerArea = () => {
   const [activeIndex, setActiveIndex] = useState(0); // State to track active slide index
 
@@ -19,21 +16,18 @@ const HomeTwoBannerArea = () => {
   const sliderData = [
     {
       id: 1,
-      bgImg: banner4,
-      tagOne: 'Fast Delivery',
-      tagTwo: 'Hot Food Delivered To You',
+      tagOne: 'Reliable Supply',
+      tagTwo: 'Ensuring Energy Security',
     },
     {
       id: 2,
-      bgImg: banner5,
-      tagOne: 'On Trending',
-      tagTwo: 'Food For All Seasons',
+      tagOne: 'Innovative Solutions',
+      tagTwo: 'Pioneering Energy Technologies',
     },
     {
       id: 3,
-      bgImg: banner6,
-      tagOne: 'Featured Service',
-      tagTwo: 'Perfect Food Delivery. Unique Experience',
+      tagOne: 'Sustainable Practices',
+      tagTwo: 'Committed to a Greener Future',
     },
   ];
   return (
@@ -72,22 +66,18 @@ const HomeTwoBannerArea = () => {
                   <div className="container">
                     <div className="row align-items-center">
                       <div className="col-xxl-7 col-xl-7 col-lg-7">
-                        <div className="banner-content pos-rel mb-30 text-white">
+                        <div className="banner-content pos-rel mb-30">
                           <span className="banner-subtitle">
                             {item?.tagOne}
                           </span>
                           <h1 className="banner-title">{item?.tagTwo}</h1>
                           <div className="banner-btn">
-                            <Link className="fill-btn" href="/contact">
-                              Shop Now
+                            <Link
+                              className="fill-btn text-black"
+                              href="/contact"
+                            >
+                              Consult Us
                             </Link>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-xxl-5 col-xl-5 col-lg-5">
-                        <div className="banner-thumb-wrapper pos-rel">
-                          <div className="banner-thumb-2">
-                            <Image src={item?.bgImg} alt="banner-4" />
                           </div>
                         </div>
                       </div>
