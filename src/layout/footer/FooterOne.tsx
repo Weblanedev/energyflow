@@ -1,7 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
-import logoImg from '../../../public/assets/img/logo/footer-logo.svg';
 import menu_data from '@/data/menu-data';
 import socials_data from '@/data/social-data';
 import contact_data from '@/data/contact-data';
@@ -12,12 +10,7 @@ const FooterOne = () => {
       <footer data-background="" className="footer1-bg">
         <section className="footer-area footer-area1 footer-area1-bg pt-95 pb-55">
           <div className="container">
-            <div className="header-logo header1-logo mb-40 mb-md-0">
-              <Link href="/" className="logo-bl">
-                <Image src={logoImg} alt="logo-img" />
-              </Link>
-            </div>
-            <div className="row justify-content-end">
+            <div className="row">
               {menu_data
                 .filter(item => item.submenus)
                 .map(({ title, submenus }, i) => (
