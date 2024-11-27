@@ -3,7 +3,7 @@ $colors: (
     white: #fff,
     black: #000,
     blue: #2785ff,
-    heading: #171717,
+    heading: #fff,
     text: #707070,
     border: #eaebee,
     placeholder: #707070,
@@ -12,16 +12,16 @@ $colors: (
   theme: (
     1: #171717,
     2: #fb5050,
-    3: #cd770d,
+    3: #ff9900,
     4: #6b759e,
     5: #9db9c5,
-    6: #fcf7ed,
+    6: #171717,
   ),
   bg: (
     gray: #fff,
     black: #000,
     text: #fff,
-    footer: #cd770d,
+    footer: #ff9900,
   ),
   badge: (
     new: #62c48f,
