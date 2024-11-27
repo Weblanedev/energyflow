@@ -15,7 +15,7 @@ const ContactFormMain = () => {
             <div className="col-lg-8 col-md-12">
               <div className="contact-main-wrapper mb-60">
                 <div className="section-title">
-                  <h2 className="section-main-title mb-40">Get in Touch</h2>
+                  <h2 className="section-main-title mb-40">Consult Us</h2>
                 </div>
                 <div className="contact-main-form">
                   <ContactForm />
@@ -25,7 +25,7 @@ const ContactFormMain = () => {
             <div className="col-lg-4 col-md-6">
               <div className="sidebar-widget-wrapper mb-60">
                 <div className="sidebar-widget">
-                  <h4 className="sidebar-widget-title">Support Contact</h4>
+                  <h4 className="sidebar-widget-title">Contact</h4>
                   <div className="sidebar-widget-content">
                     <div className="contact-list">
                       <div className="contact-list-item">
