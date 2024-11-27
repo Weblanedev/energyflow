@@ -1,19 +1,19 @@
 import { MenuType } from '@/interFace/interFace';
 
 const menu_data: MenuType[] = [
-  {
-    id: 1,
-    hasDropdown: false,
-    active: true,
-    title: 'Home',
-    link: '',
-  },
+  // {
+  //   id: 1,
+  //   hasDropdown: false,
+  //   active: true,
+  //   title: 'Home',
+  //   link: '',
+  // },
   {
     id: 2,
     hasDropdown: true,
     megaMenu: true,
     active: true,
-    title: 'Chow',
+    title: 'Services',
     link: '#',
     submenus: [
       // {
@@ -29,10 +29,10 @@ const menu_data: MenuType[] = [
       //   //   { title: 'Group Product', link: '/group-product' },
       //   // ],
       // },
-      { title: 'Home Delivery', link: '/' },
-      { title: 'Events', link: '/' },
-      { title: 'Students Discount', link: '/' },
-      { title: 'Vegan', link: '/' },
+      { title: 'Oil Exploration', link: '/' },
+      { title: 'Natural Gas Supply', link: '/' },
+      { title: 'Renewable Energy', link: '/' },
+      { title: 'Energy Consulting', link: '/' },
     ],
   },
   {
