@@ -1,5 +1,5 @@
 //@refresh
-import ProductModal from '@/components/SharedComponents/ProductModal';
+// import ProductModal from '@/components/SharedComponents/ProductModal';
 import HomeMain from '@/components/home/HomeMain';
 import MetaData from '@/hooks/useMetaData';
 import WrapperStyleOne from '@/layout/WrapperStyleOne';
@@ -11,7 +11,7 @@ const Home = () => {
         <WrapperStyleOne>
           <main>
             <HomeMain />
-            <ProductModal />
+            {/* <ProductModal /> */}
           </main>
         </WrapperStyleOne>
       </MetaData>
@@ -19,4 +19,4 @@ const Home = () => {
   );
 };
 
-// export default Home;
+export default Home;

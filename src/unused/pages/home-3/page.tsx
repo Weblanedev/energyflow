@@ -1,5 +1,5 @@
 //@refresh
-import ProductModal from '@/components/SharedComponents/ProductModal';
+// import ProductModal from '@/components/SharedComponents/ProductModal';
 import HomeThreeMain from '@/unused/components/homeThree/HomeThreeMain';
 import MetaData from '@/hooks/useMetaData';
 import WrapperStyleThree from '@/layout/WrapperStyleThree';
@@ -12,7 +12,7 @@ const HomeThreePage = () => {
         <WrapperStyleThree>
           <main>
             <HomeThreeMain />
-            <ProductModal />
+            {/* <ProductModal /> */}
           </main>
         </WrapperStyleThree>
       </MetaData>
@@ -20,4 +20,4 @@ const HomeThreePage = () => {
   );
 };
 
-// export default HomeThreePage;
+export default HomeThreePage;
